@@ -215,10 +215,11 @@ section:first-of-type {
 footer {
     background-color: var(--very-dark-cyan);
     color: var(--very-pale-blue);
+    padding-bottom: 30px;
 }
 
 .bg-footer {
-    margin-bottom: -5px;
+    margin-bottom: -10px;
     width: 100%;
 }
 
@@ -280,4 +281,43 @@ footer {
 
 .logo-btm {
     filter: var(--very-pale-blue);
+    margin-left: -70px;
+    margin-bottom: 10px;
+}
+
+.footer-section-div-one p {
+    text-align: left;
+    font-weight: 600;
+}
+
+.contact-div {
+    margin: 20px 0;
+}
+
+.contact-div p:first-of-type {
+    margin-bottom: 10px;
+}
+
+.contact-div img {
+    padding-right: 20px;
+    width: 45px;
+}
+
+.contact-div span {
+    vertical-align: super;
+}
+
+.socials {
+    width: 85%;
+    margin: 0 auto 15px;
+    font-size: 30px;
+}
+
+.fa-square-facebook,
+.fa-instagram, .fa-square-twitter {
+    padding-right: 10px;
+}
+
+.credit {
+    display: none;
 }
