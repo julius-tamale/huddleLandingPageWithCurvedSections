@@ -217,7 +217,7 @@ footer h1 {
 footer {
     padding-bottom: 50px;
 }
-.newsletter-div {
+.newsletter-div, .lorem-div {
     padding: 50px 20px 0;
 }
 
@@ -225,7 +225,8 @@ footer {
     margin-bottom: 25px;
 }
 
-.newsletter-div p {
+.newsletter-div p,
+.lorem-div div:nth-child(2) {
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -254,4 +255,27 @@ form input:nth-child(2) {
     font-weight: 600;
     position: absolute;
     right: 35px;
+}
+
+.lorem-div {
+    margin-top: 100px;
+}
+
+.lorem-img,
+.lorem-div div:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.lorem-div div:nth-child(3) img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.lorem-div div:nth-child(3) p:first-of-type {
+    margin-bottom: 10px;
+}
+
+.lorem-div div:nth-child(3) span {
+    vertical-align: super;
+    font-weight: 700;
 }
