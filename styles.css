@@ -41,7 +41,7 @@ header button {
     border: 1px solid var(--light-pink);
     padding: 5px 15px;
     color: var(--pink);
-    background-color: var(--very-pale-blue);
+    background-color: #fff;
 }
 
 header img {
@@ -278,4 +278,123 @@ form input:nth-child(2) {
 .lorem-div div:nth-child(3) span {
     vertical-align: super;
     font-weight: 700;
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    form input:nth-child(2) {
+        right: 55px;
+        padding: 10px 0;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    header{
+        padding: 75px 75px 0;
+        margin-bottom: 150px;
+        margin-bottom: 350px;
+    }
+
+    header img {
+        width: 300px;
+    }
+    header button {
+        padding: 0.4375em 3.125em;
+        font-size: 1.25em;
+    }
+    .section-one h1 {
+        font-size: 3.125em;
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+    .section-one p {
+        text-align: center;
+        font-size: 1.4em;
+        padding: 0 18.75em;
+        margin-bottom: 1.5em;
+    }
+    .section-two {
+        width: 100%;
+    }
+    .mockup-div {
+        display: block;
+        width: 80%;
+        margin: 50px auto;
+    }
+    .section-two-text-div {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+    .section-three {
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 150px;
+    }
+    .section-three-bg-top {
+        grid-column: 1/-1;
+    }
+    .section-three-text-div {
+        grid-column: 1/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        text-align: left;
+    }
+    .section-three h1,
+    .section-three p {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .section-three p {
+        font-size: 18px;
+    }
+    .section-three h1 {
+        font-size: 3em;
+        margin-bottom: 30px;
+    }
+    .section-three-illustration {
+        grid-column: 2/3;
+    }
+    .section-three-illustration img {
+        padding: 0 50px 50px 0;
+    }
+    .section-three-bg-bottom {
+        grid-column: 1/-1;
+    }
+    .section-three-mobile-top,
+    .section-three-mobile-bottom,
+    .section-five-mobile-top,
+    .section-five-mobile-bottom {
+        display: none;
+    }
+    .section-three-desktop-top,
+    .section-three-desktop-bottom,
+    .section-five-desktop-top,
+    .section-five-desktop-bottom {
+        display: block;
+    }
+    .section-four {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 50px;
+        margin-bottom: 150px;
+    }
+    .section-four-text-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .section-four-text-div h1 {
+        text-align: left;
+        font-size: 3em;
+        margin-bottom: 30px;
+    }
+    .section-four-text-div p {
+        text-align: left;
+        font-size: 16px;
+    }
+    
 }
