@@ -487,4 +487,11 @@ header button:hover {
         padding-right: 20px;
         font-size: 30px;
     }
+    .fa-square-facebook:hover,
+    .fa-twitter:hover {
+        color: dodgerblue;
+    }
+    .fa-instagram:hover {
+        color: brown;
+    }
 }
