@@ -142,6 +142,14 @@ p span:nth-child(2) {
     background: var(--very-pale-blue);
 }
 
+@media screen and (min-width: 375px) and (max-width: 428px) {
+    .section-five-bg-bottom-div {
+        margin-top: -135px;
+    }
+    .section-five-text-div p {
+        padding-bottom: 50px;
+    }
+}
 .section-three-illustration img,
 .section-three-bg-top img,
 .section-three-bg-bottom img,
@@ -286,6 +294,17 @@ form input:nth-child(2):hover {
 }
 header button:hover {
     color: var(--very-pale-blue);
+}
+
+.socials {
+    padding-left: 20px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.fa-instagram,
+.fa-square-facebook {
+    padding-right: 10px;
 }
 @media screen and (min-width: 768px) and (max-width: 900px) {
     form input:nth-child(2) {
